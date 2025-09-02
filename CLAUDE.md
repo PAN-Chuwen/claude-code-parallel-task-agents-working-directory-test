@@ -28,7 +28,7 @@ Analyze multiple environment configurations simultaneously to generate comprehen
 
 Create parallel Task agents to analyze all three environments simultaneously. Each agent should:
 
-1. **Navigate to assigned environment directory**
+1. **Use `cd` command to navigate to assigned environment directory**
 2. **Generate environment analysis reports**
 3. **Extract configuration parameters**
 4. **Analyze data characteristics**
@@ -38,11 +38,11 @@ Create parallel Task agents to analyze all three environments simultaneously. Ea
 
 Use the Task tool to create 3 agents running in parallel:
 
-- Agent 1: Analyze `working_dir1/` (development environment)
-- Agent 2: Analyze `working_dir2/` (staging environment)  
-- Agent 3: Analyze `working_dir3/` (production environment)
+- Agent 1: Use `cd working_dir1/` then analyze the development environment
+- Agent 2: Use `cd working_dir2/` then analyze the staging environment  
+- Agent 3: Use `cd working_dir3/` then analyze the production environment
 
-Each agent should work independently in its assigned directory and generate detailed analysis reports.
+Each agent should first change directory using the `cd` command to their assigned environment directory, then work independently within that directory to generate detailed analysis reports.
 
 ## Expected Deliverables
 
