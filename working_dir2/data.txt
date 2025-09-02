@@ -1,0 +1,5 @@
+Line 1: Staging data sample
+Line 2: Test record X
+Line 3: Test record Y
+Line 4: Test record Z
+Line 5: End of staging dataset

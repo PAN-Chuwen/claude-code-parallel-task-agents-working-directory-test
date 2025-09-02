@@ -1,0 +1,23 @@
+# Test results - these will vary by execution
+test-case/results/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*~
+.#*
+#*#
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log

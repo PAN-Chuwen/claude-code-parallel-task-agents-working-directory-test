@@ -1,0 +1,5 @@
+environment=staging
+version=1.0.0
+debug=false
+port=4000
+database=staging_db

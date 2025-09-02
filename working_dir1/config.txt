@@ -1,0 +1,5 @@
+environment=development
+version=1.0.0
+debug=true
+port=3000
+database=dev_db

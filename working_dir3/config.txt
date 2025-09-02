@@ -1,0 +1,5 @@
+environment=production
+version=1.0.0
+debug=false
+port=8000
+database=prod_db
